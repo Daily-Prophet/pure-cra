@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="978bc139-58da-448b-948a-814eba27ab7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaskDetail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TaskList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/authenticate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/connect-db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/defaultState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/initialize-db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/server/server.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/history.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/sagas.mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l9QDIDladov9zOAmgMj5hrDDBr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="978bc139-58da-448b-948a-814eba27ab7c" name="Default Changelist" comment="" />
+      <created>1607006706109</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607006706109</updated>
+      <workItem from="1607006708802" duration="45800000" />
+      <workItem from="1608381655599" duration="5085000" />
+      <workItem from="1608428558789" duration="1527000" />
+      <workItem from="1608555863378" duration="10061000" />
+      <workItem from="1608732487126" duration="5080000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/store/sagas.js</url>
+          <line>42</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
