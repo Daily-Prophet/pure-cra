@@ -6,6 +6,7 @@ import {authenticationRoute} from "./authenticate.js";
 import './initialize-db.js';
 import path from 'path';
 
+const __dirname = path.resolve();
 let port = process.env.PORT || 8888;
 let app = express();
 
@@ -20,8 +21,8 @@ app.use(
 authenticationRoute(app);
 
 
-if (process.env.NODE_ENV == `production`) {
-  app.use(express.static(path.resolve(__dirname, '../../build/dist')));
+if (process.env.NODE_ENV === `production`) {
+  app.use(express.static(path.resolve(__dirname, '../build/dist')));
   app.get('/*', (req, res) => {
     res.sendFile(path.resolve('index.html'));
   })

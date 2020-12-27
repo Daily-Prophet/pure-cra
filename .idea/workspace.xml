@@ -2,23 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="978bc139-58da-448b-948a-814eba27ab7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TaskDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TaskList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/authenticate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/connect-db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/defaultState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/initialize-db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/server/server.spec.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas.mock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskDetail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TaskList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/connect-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/connect-db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +64,7 @@
       <workItem from="1608381655599" duration="5085000" />
       <workItem from="1608428558789" duration="1527000" />
       <workItem from="1608555863378" duration="10061000" />
-      <workItem from="1608732487126" duration="5080000" />
+      <workItem from="1608732487126" duration="11705000" />
     </task>
     <servers />
   </component>

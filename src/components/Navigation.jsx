@@ -6,7 +6,7 @@ const Navigation = () => (
   <div>
     <Link to="/dashboard">
       <h1>
-        The first App Tab
+        Go To Task Dashboard
       </h1>
     </Link>
   </div>
