@@ -8,6 +8,7 @@ import * as mutations from './mutations';
 import {v4 as uuid} from 'uuid';
 import axios from 'axios';
 import {history} from './history';
+import {SET_TASK_COMPLETION} from "./mutations";
 
 const url = process.env.NODE_ENV === 'production' ? `` : "http://localhost:8888";
 

@@ -18,7 +18,7 @@ const TaskDetail = ({
       <input onChange={setTaskName} value={task.name} className="form-control form-control-lg"/>
     </h3>
     <div>
-      <button onClick={() => setTaskCompletion(id, !isComplete)} className="btn btn-primary">
+      <button onClick={() => setTaskCompletion(id, !isComplete, isComplete ? "G1" : "G3")} className="btn btn-primary">
         {isComplete ? "Reopen" : "complete"}
       </button>
     </div>
