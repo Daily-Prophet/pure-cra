@@ -2,9 +2,11 @@ import express from 'express';
 import cors from 'cors';
 import bodyParser from 'body-parser';
 import {connectDB} from './connect-db.js';
-import {authenticationRoute} from "./authenticate.js";
+import {authenticationRoute, signUpRoute} from "./authenticate.js";
 import './initialize-db.js';
 import path from 'path';
+import md5 from "md5";
+import {v4 as uuid} from "uuid";
 
 const __dirname = path.resolve();
 let port = process.env.PORT || 8888;
@@ -19,6 +21,7 @@ app.use(
 );
 
 authenticationRoute(app);
+signUpRoute(app);
 
 if (process.env.NODE_ENV === `production`) {
   app.use(express.static(path.resolve(__dirname, 'build')));

@@ -49,3 +49,26 @@ export const authenticationRoute = app => {
     }
   })
 }
+
+export const signUpRoute = app => {
+  app.post('/signup', async (req, res) => {
+    try {
+      let {username, password} = req.body;
+      let db = await connectDB();
+      let collection = db.collection(`users`);
+      let user = await collection.findOne({name: username});
+
+      if (!user) {
+        return res.status(500).send("User has registered!");
+      }
+      await collection.insertOne({id:uuid(), name: username, passwordHash:md5(password) });
+
+      let token = uuid();
+
+      let state = await assembleUserState(user);
+      res.send({token, state});
+    } catch (e) {
+      return res.status(500).send(req);
+    }
+  })
+}

@@ -37,7 +37,7 @@
     "initDB": "babel-node src/server/initialize-db.js",
     "server": "cross-env NODE_ENV=production node src/server/server.js",
     "server-test": "babel-node src/server/server.spec.js",
-    "start-dev": "concurrently \"yarn server\" \"yarn start\"",
+    "start-dev": "concurrently \"node src/server/server.js\" \"react-scripts start\"",
     "deploy": "yarn run build && git commit -a -m deployment && git push heroku master"
   },
   "eslintConfig": {

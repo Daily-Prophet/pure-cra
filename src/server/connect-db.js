@@ -7,7 +7,7 @@ const localUrl = "mongodb://localhost:27017/tasksDB";
 const url = process.env.NODE_ENV === 'production' ? cloudUrl : localUrl;
 
 export async function connectDB() {
-  let client = await MongoClient.connect(url, {useNewUrlParser: true});
+  let client = await MongoClient.connect(cloudUrl, {useNewUrlParser: true});
   db = client.db();
   return db;
 };

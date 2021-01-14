@@ -62,7 +62,22 @@ export function* userAuthenticationSage() {
     } catch (e) {
       yield put(mutations.processAuthenticateUser(mutations.NOT_AUTHENTICATED));
     }
+  }
+}
 
+export function* signUpUserSage() {
+  while (true) {
+    const {username, password} = yield take(mutations.REQUEST_SIGNUP_USER);
+    try {
+      const {data} = yield axios.post(url + `/signup`, {username, password});
+      yield put(mutations.setState(data.state));
+      history.push(`/dashboard`);
+      if (!data) {
+        throw new Error();
+      }
+    } catch (e) {
+      yield put(mutations.processAuthenticateUser(mutations.NOT_AUTHENTICATED));
+    }
   }
 }
 
@@ -70,6 +85,7 @@ export function* rootSaga() {
   yield all([
     fork(taskCreationSaga),
     fork(taskModificationSaga),
-    fork(userAuthenticationSage)
+    fork(userAuthenticationSage),
+    fork(signUpUserSage),
   ])
 }
