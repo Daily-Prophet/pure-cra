@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="978bc139-58da-448b-948a-814eba27ab7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/SignUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TaskDetail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TaskDetail.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/authenticate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/authenticate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/connect-db.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/connect-db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/mutations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/sagas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/sagas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +53,7 @@
       <workItem from="1608381655599" duration="5085000" />
       <workItem from="1608428558789" duration="1527000" />
       <workItem from="1608555863378" duration="10061000" />
-      <workItem from="1608732487126" duration="26627000" />
+      <workItem from="1608732487126" duration="26635000" />
     </task>
     <servers />
   </component>

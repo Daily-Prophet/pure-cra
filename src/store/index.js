@@ -34,7 +34,7 @@ export const store = createStore(
             name: "New Task",
             group: action.groupID,
             owner: action.ownerID,
-            isComplete: false
+            isComplete: false,
           }]
         case mutations.SET_TASK_COMPLETION:
           return tasks.map(task => (
